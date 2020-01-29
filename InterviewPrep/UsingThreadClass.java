@@ -7,7 +7,7 @@ class MyTask extends Thread{
         }
     }
 }
-public class ConcurrencyMultithreading {
+public class UsingThreadClass {
     public static void main(String[] args){
         System.out.println("==application started==");
         MyTask task = new MyTask();
