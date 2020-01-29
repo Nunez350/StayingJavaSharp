@@ -1,3 +1,25 @@
+
+class MyTask extends Thread{
+    @Override
+    public void run(){
+        for(int doc=1; doc <=10; doc++){
+            System.out.println("@@ printing document #"+ doc+ "Printer2");
+        }
+    }
+}
+public class ConcurrencyMultithreading {
+    public static void main(String[] args){
+        System.out.println("==application started==");
+        MyTask task = new MyTask();
+        task.start();
+
+        for (int doc=1; doc<=10; doc++){
+            System.out.println("^^ Printing document #" + doc +"-printer 1");
+        }
+
+    }
+}
+
 // public class ConcurrencyMultithreading extends Thread {
 //     public void run(){
 //         System.out.println("thread");
@@ -20,12 +42,12 @@
 //invoked the start method using the object
 
 
-public class ConcurrencyMultithreading implements Runnable{
-    public void run(){
-        System.out.println("run thread");
-    }
-    public static void main(String [] args){
-        Thread t = new Thread(new ConcurrencyMultithreading());
-        t.start();
-    }
-}
+// public class ConcurrencyMultithreading implements Runnable{
+//     public void run(){
+//         System.out.println("run thread");
+//     }
+//     public static void main(String [] args){
+//         Thread t = new Thread(new ConcurrencyMultithreading());
+//         t.start();
+//     }
+// }
