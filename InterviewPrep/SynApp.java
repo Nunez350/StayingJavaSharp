@@ -15,13 +15,32 @@ class MyThread extends Thread{
         pRef =p;
     }
 
+    // YourThread(Printer p){
+    //     pRef =p;
+    // }
+
     @Override 
     public void run(){
         pRef.printDocuments(10, "my profile");
     }
 }
 
+class YourThread extends Thread{
+    Printer pRef;
 
+    YourThread(Printer p){
+        pRef =p;
+    }
+
+    // YourThread(Printer p){
+    //     pRef =p;
+    // }
+
+    @Override 
+    public void run(){
+        pRef.printDocuments(10, "your profile");
+    }
+}
 public class SynApp{
     public static void main(String[] args){
         System.out.println("--application strat==");
@@ -30,6 +49,7 @@ public class SynApp{
         MyThread mRef = new MyThread(printer);
         YourThread yRef = new YourThread(printer);
         mRef.start();
+        yRef.start();
         System.out.println("application ended");;
     }
 
