@@ -1,15 +1,15 @@
 import java.text.ParseException;
 import java.util.*;
-// import java.util.ArrayList;
-// import java.util.Collections;
-// import java.util.Comparator;
-// import java.util.HashMap;
-// import java.util.LinkedHashMap;
-// import java.util.List;
-// import java.util.Map.Entry;
-// import java.util.Set;
-// import java.util.TreeMap;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeMap;
+
 
 public class HashMapSorting{
 
@@ -25,7 +25,8 @@ public class HashMapSorting{
         codenames.put("J2SE 5.0", "Tiger");
         codenames.put("Java SE 6", "Mustang");
         codenames.put("JAva SE 7", "Dolphin");
-        
+        codenames.put("JAva SE 7", "Dolphins");
+       
         System.out.println("HashMap before sorting, random order ");
         Set<Entry<String, String>> entries = codenames.entrySet();
        
