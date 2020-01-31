@@ -36,6 +36,7 @@ public class MergeSort {
             System.arraycopy(input , i , input, start+ tempIndex, mid -i);
 
             System.arraycopy(temp,0, input, start, tempIndex);
+            // System.arraycopy(src, srcPos, dest, destPos, length);
         }
 
 }
