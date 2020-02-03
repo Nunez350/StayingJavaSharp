@@ -7,7 +7,7 @@ import java.util.Collections;
  *
  * @author Javin
  */
-public class CollectionTest {
+public class CollectionsTest {
 
    
     public static void main(String args[]) {

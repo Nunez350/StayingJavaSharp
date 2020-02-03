@@ -36,10 +36,19 @@ class GrabDuplicatesWHashMap {
 
         int arr []= {3,3,2,2,2,23,44};
         Store(arr);
+
+        byte[] a = {1,2,3};
+        byte [] b = a;// {1,2,3};//(byte[]) a.clone(); 
+
+    System.out.println(a==b);
         
     }
 
 }
+
+
+
+
 
 
 
