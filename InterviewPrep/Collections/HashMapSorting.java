@@ -1,5 +1,5 @@
 import java.text.ParseException;
-import java.util.*;
+// import java.util.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -29,7 +29,7 @@ public class HashMapSorting{
        
         System.out.println("HashMap before sorting, random order ");
         Set<Entry<String, String>> entries = codenames.entrySet();
-       
+        System.out.println(entries);
         for(Entry<String, String> entry : entries){
             System.out.println(entry.getKey() + " ==> " + entry.getValue());
         }

@@ -5,8 +5,9 @@ public class checkPalindrome {
         while (i <j){
             if(str.charAt(i) != str.charAt(j))
                 return false;
-                i++;
-                j--;
+            i++;
+            j--;
+                System.out.println(j);
         }
 
         return true;
@@ -14,7 +15,7 @@ public class checkPalindrome {
     }
 
     public static void main(String[] args){
-        String str = "geeks";
+        String str = "tattarrattat";
         if((isPalindrome(str)))
             System.out.println("yes");
         else
