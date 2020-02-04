@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GregAerobic",
+            "request": "launch",
+            "mainClass": "GregAerobic"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lee2",
+            "request": "launch",
+            "mainClass": "Lee2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lee",
+            "request": "launch",
+            "mainClass": "Lee"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OverloadedConstructors",
+            "request": "launch",
+            "mainClass": "OverloadedConstructors"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentData",
+            "request": "launch",
+            "mainClass": "StudentData"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Omron",
+            "request": "launch",
+            "mainClass": "Omron"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StringFlip",
+            "request": "launch",
+            "mainClass": "StringFlip"
+        }
+    ]
+}
